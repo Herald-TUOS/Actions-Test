@@ -5,4 +5,6 @@ from pvlive_api import PVLive
 
 pvl = PVLive()
 
-print(pvl.pes_ids)
+print(len(pvl.pes_ids))
+
+print(len(pvl.gsp_ids))
