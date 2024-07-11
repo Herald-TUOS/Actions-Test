@@ -2,6 +2,7 @@ from pvlive_api import PVLive
 
 pvl = PVLive()
 
+
 class TestClass:
     def test_gsp_list(self):
         gsps = pvl.gsp_ids
