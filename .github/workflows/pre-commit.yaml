@@ -1,6 +1,9 @@
 name: "Run linting and formatting"
 
-on: [push, pull_request]
+on: 
+  push: {}
+  pull_request:
+    types: [closed]
 
 jobs:
   pre-commit:
