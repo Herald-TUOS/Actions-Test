@@ -3,10 +3,10 @@ name: "Run linting and formatting"
 on:
   push:
     branches:
-      - main
+    - main
   pull_request:
-    types:
-      - opened
+    branches:
+    - main
 
 
 jobs:
