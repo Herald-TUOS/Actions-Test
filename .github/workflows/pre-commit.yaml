@@ -1,7 +1,13 @@
 name: "Run linting and formatting"
 
-on: 
-  push
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+
 
 jobs:
   pre-commit:
